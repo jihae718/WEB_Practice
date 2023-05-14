@@ -1,24 +1,9 @@
-# oneshot
+# 추가할 것
+프로필
+댓글
+로그인 및 회원가입 (내브바에도 추가)
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 잘 안되는 것
+홈 화면에서 작성일이 이상한 숫자로 뜬다
+### 푸터가 왜 안될까
+public/html에 footer 작성하고 css
