@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import ArticleItem from '@/components/ArticleItem'
+import ArticleItem from '@/components/Community/ArticleItem'
 
 export default {
   name: 'IndexView',

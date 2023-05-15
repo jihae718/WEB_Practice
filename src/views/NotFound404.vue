@@ -1,12 +1,22 @@
 <template>
   <div>
-    <h1>404 Not Found</h1>
+    <!-- <img :src="catImageUrl" alt=""> -->
   </div>
 </template>
 
 <script>
 export default {
-  name: 'NotFound404'
+  name: 'NotFound404',
+  data(){
+  },
+  methods: {
+  }
 }
 </script>
 
+<style scoped>
+img {
+  width: 500px;
+}
+
+</style>

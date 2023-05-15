@@ -1,9 +1,19 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import CreateView from '@/views/CreateView'
-import DetailView from '@/views/DetailView'
-import IndexView from '@/views/IndexView'
+
+// Home
+import HomeView from '@/views/HomeView'
+
+// Community
+import CreateView from '@/views/Community/CreateView'
+import DetailView from '@/views/Community/DetailView'
+import IndexView from '@/views/Community/IndexView'
 import NotFound404 from '@/views/NotFound404'
+
+// Movie
+import MovieView from '@/views/Movie/MovieView'
+import RandomView from '@/views/Movie/RandomView'
+import WatchListView from '@/views/Movie/WatchListView'
 
 Vue.use(VueRouter)
 
@@ -18,7 +28,32 @@ const routes = [
     name: 'NotFound404',
     component: NotFound404
   },
-  // index가 홈
+
+  // home
+  {
+    path: '/',
+    name: 'home',
+    component: HomeView
+  },
+
+  // Movie
+  {
+    path: '/movies',
+    name: 'MovieView',
+    component: MovieView
+  },
+  {
+    path: '/random',
+    name: 'RandomView',
+    component: RandomView
+  },
+  {
+    path: '/watch-list',
+    name: 'WatchListView',
+    component: WatchListView
+  },
+
+  // Community
   {
     path: '/',
     name: 'index',
